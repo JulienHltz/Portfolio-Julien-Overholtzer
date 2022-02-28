@@ -1244,7 +1244,9 @@ footer{
         display: none;
     }
 
-
+    #containerpastactual ul{
+        line-height: 0px;
+    }
     
 }
 
