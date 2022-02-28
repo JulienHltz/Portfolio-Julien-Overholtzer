@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="containerburger"><div></div></div>
+  <header>
+
+    <nav>
+      <ul>
+        <li><a href="#containerintro">MY PORTFOLIO</a></li>
+        <li><a href="#containerintro">ABOUT</a></li>
+        <li><a href="#work">SKILLS</a></li>
+        <li><a href="#experience">EXPERIENCES</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  <div id='containerintro'>
+
+    <div id='intropart' class='intropart'>
+
+      <h1>Hi I'm Julien</h1>
+
+      <p>I'm currently working on becoming a complete web developer.</p>
+
+      <p>In 2021 I decided to start practicing Web Development online by myself.</p>
+
+      <p>I am now studying in a training course in Limoges (Aliptic). We are learning a lot about digital companies and how to work together on projects.
+      </p>
+
+      <p>I am really interested in working with modern design and inovative visual effects.</p>
+
+      <p>I love to build up new ideas and I'm always looking for new challenges.
+      </p>
+
+
+    </div>
+    <div class="card">
+      <img src="aaa.jpg">
+      <h1>Julien</h1>
+      <h2>Overholtzer</h2>
+      <p class="title">Junior Web Developer
+      </p>
+      <p>Self trained student</p>
+      <p>Aliptic training course</p>
+      <p>Limoges 🇫🇷</p>
+      <div>
+        <a target="_blank" href="https://github.com/JulienHltz"><i class="fab fa-linkedin"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/julien-overholtzer-539097133/"><i class="fab fa-github"></i></a>
+
+      </div>
+      <p><a target="_blank" href="mailto:julien.overholtzer@gmail.com"><button>Contact  <i class="fas fa-paper-plane"></i></button></a></p>
+    </div>
+  </div>
+
+
+  <main>
+    <section id='work' class='work'>
+      <svg xmlns="http://www.w3.org/2000/svg">
+
+        <!-- filterUnits is required to prevent clipping the blur outside the viewBox -->
+
+        <filter id="motion-blur-filter" filterUnits="userSpaceOnUse">
+
+          <!-- We only want horizontal blurring. x: 100, y: 0 -->
+
+          <feGaussianBlur stdDeviation="100 0"></feGaussianBlur>
+        </filter>
+      </svg>
+
+      <!-- We use a custom attribute to set the text that the pseudo element should display and blur. In this case, we use the first character of the word. -->
+
+
+      <span class='active' filter-content="S">Skills</span>
+      <div class='workdiv'>
+        <div class='containers' id='containerfront'>
+          <h1 class='workdivh1'>Front-End</h1>
+          <div class='front-div'>
+            <div><img src="html.png" alt=""></div>
+            <div><img src="css.png" alt=""></div>
+            <div><img src="js.png" alt=""></div>
+          </div>
+        </div>
+        <div class='containers' id='containerback'>
+          <h1 class='workdivh1'>Back-End</h1>
+          <div class='back-div'>
+            <div><img src="php.png" alt=""></div>
+            <div><img src="mysql.png" alt=""></div>
+          </div>
+        </div>
+        <div class='containers' id='containertools'>
+          <h1 class='workdivh1'>Tools / Extra</h1>
+          <div class='tools-div'>
+            <div><img src="github.png" alt="">
+              <p>Git & Github</p>
+            </div>
+            <div><img src="photo.png" alt="">
+              <p>Picture Editing</p>
+            </div>
+            <div><img src="video.png" alt="">
+              <p>Video Editing</p>
+            </div>
+            <div><img src="music.svg" alt="">
+              <p>Music Experience</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id='experience' class="experience">
+      <div class='containerh1'>
+        <h1>My Experiences</h1>
+        <div class='languescontainer'>
+          <div class='langues'>
+            <div>
+              <img src="frflag.png" alt="">
+              <p>Native</p>
+            </div>
+            <div>
+              <img src="ukflag.png" alt="">
+              <p>C1 Level</p>
+            </div>
+            <div>
+              <img src="spainflag.png" alt="">
+              <p>A2 Level</p>
+            </div>
+          </div>
+
+        </div>
+        <div id='containerpastactual'>
+        <div id='containerpastwork'>
+          <h1>Work Experiences</h1>
+          <div class='pastwork'>
+          <div class='jobs'>
+            <h3>Car Rental Agent</h3>
+            <h4>Avis® Car Rental - Limoges Airport [2017 - 2021]</h4>
+            <ul>
+              <li>Customer service skills</li>
+              <li>Selling products and services</li>
+              <li>Use of English</li>
+              <li>Software agency skills</li>
+              <li>Patience in stressful situations</li>
+            </ul>
+            <h3>Customer information and project participation [Civilian Service]</h3>
+            <h4>Aeroclub du Limousin [02/2017 - 07/2017]</h4>
+            <ul>
+              <li>Discovering the world of the aviation</li>
+              <li>Co-managing the organisation of a big event</li>
+              <li>Research sponsorship [prospecting & calling companies]</li>
+              <li>Customer information</li>
+
+            </ul>
+          </div>
+          <div class='studies'>
+          <h3>LLCER : English</h3>
+          <h4>Limoges University [2014-2016]</h4>
+          <h3>BTS : Technico-Commercial</h3>
+          <h4>Lycée Etienne Restat [2013-2014]</h4>
+            <h3>BAC PRO : Rural Services</h3>
+            <h4>Lycée l'Oustal [2010-2012]</h4>
+        </div>
+          </div>
+        </div>
+        <div id='containeractualwork'>
+          <h1>Web Development</h1>
+          <div class='actualwork'>
+          <h3>Self training for Web Development</h3>
+          <h4>[08/2021 - 02/2022]</h4>
+          <ul>
+            <li>Online courses (MDN, W3Schools, OpenClassrooms)</li>
+            <li>Practicing the basics (HTML - CSS - JS)</li>
+            <li>Learning about frameworks & other languages</li>
+          </ul>
+
+          <h3>Aliptic - Maintaining and increasing digital skills</h3>
+          <h4>[February 2022 - July 2022]</h4>
+          <ul>
+            <li>Digital acculturation</li>
+            <li>Learning about job situations</li>
+            <li>Working with HTML CSS JS (Bootstrap, SASS)</li>
+            <li>Working with PHP MYSQL</li>
+            <li>Managing a collaborative project</li>
+            <li>Meeting digital agencies</li>
+            
+          </ul>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    </section>
+  </main>
+  <footer>Copyright &#169; - From Scratch by Julien Overholtzer.</footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
