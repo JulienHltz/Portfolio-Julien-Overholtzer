@@ -1244,8 +1244,16 @@ footer{
         display: none;
     }
 
-    #containerpastactual ul{
-        line-height: 0px;
+    #containerpastactual{
+        text-align: center;
+    }
+
+    .containerh1 h1{
+        padding: 0;
+    }
+
+    #containerpastactual li{
+        line-height: 1;
     }
     
 }
@@ -1270,6 +1278,32 @@ footer{
 @media (min-width:860px) and (max-width:1250px){
     #containertools{
         padding-top: 50px;
+    }
+}
+
+@media (max-width:1120px){
+    #containerpastactual li{
+        line-height: 1;
+    }
+
+    #containerpastactual{
+        text-align: center;
+    }
+
+    #containerintro{
+        background-image: none;
+    }
+
+    .containerh1{
+        background-image: none;
+    }
+
+    span{
+        left: 0;
+    }
+
+    .active{
+        /* animation: none; */
     }
 }
 
