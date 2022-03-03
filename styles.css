@@ -1201,7 +1201,7 @@ footer{
         top: 50%;
         border-radius: 5px;
         height: 5px;
-        background-color: black;
+        background-color: #376788;
     }
     
     .containerburger > div::before{
