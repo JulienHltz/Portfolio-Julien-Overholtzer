@@ -331,7 +331,7 @@ animation: Julien 1.5s linear forwards;
     
 }
 .sticky:hover{
-    background-color: rgb(95, 95, 95);
+    /* background-color: rgb(95, 95, 95); */
     
 }
 
@@ -1255,6 +1255,18 @@ footer{
     #containerpastactual li{
         line-height: 1;
     }
+
+    nav li:first-child{
+        display: none;
+    }
+
+    .sticky{
+        position: absolute;
+        top: -500px
+        
+    }
+
+
     
 }
 
